@@ -1,0 +1,30 @@
+.mobile-keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.input-display {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-gap: 5px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #ddd;
+}
